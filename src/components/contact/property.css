@@ -1,0 +1,28 @@
+.property form div {
+  display: flex;
+}
+.property textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.property input {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.property form {
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .property h4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .property form div {
+    flex-direction: column;
+  }
+  .property input {
+    width: 100%;
+  }
+}
